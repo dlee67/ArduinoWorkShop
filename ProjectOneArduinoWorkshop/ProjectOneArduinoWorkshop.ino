@@ -1,8 +1,23 @@
+void setup() {
+
+  pinMode(2, OUTPUT);
+ 
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(2, HIGH);
+  delay(500);
+  digitalWrite(2, LOW);
+  
+}
+
 /*
  * Sequentially, lights up three LED light bulbds in a "wavy way".
  * This project was inspired by project 1 in 
+ * Was done during the 07/15/17.
  */
-//Runs once upon the beginning of the program.
+/*
 void setup() {
   pinMode(2, OUTPUT); 
   pinMode(4, OUTPUT);
@@ -11,7 +26,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   digitalWrite(2, HIGH);
   delay(500);
   digitalWrite(2, LOW);
@@ -22,3 +36,4 @@ void loop() {
   delay(500);
   digitalWrite(6, LOW);  
 }
+*/
