@@ -1,5 +1,5 @@
 //About the PWM
-/*
+/* lol
  * Am not entirely sure how this thing works....
  */
 int d = 5;
